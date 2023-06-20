@@ -1,0 +1,8 @@
+.search-container__icon {
+  background-image: url('../../../images/search.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}

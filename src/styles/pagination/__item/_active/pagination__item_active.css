@@ -1,0 +1,4 @@
+.pagination__item_active {
+  font-weight: 900;
+  border-color: orange;
+}

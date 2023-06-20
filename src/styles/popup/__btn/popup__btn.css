@@ -1,0 +1,19 @@
+.popup__btn {
+  background: #E0E0E0;
+  border-radius: 3px;
+  color: #828282;
+  cursor: pointer;
+  border: 0;
+  padding: 6px 36px;
+  margin-right: 36px;
+}
+
+.popup__btn:last-of-type {
+  margin-right: 0;
+}
+
+.popup__btn:hover {
+  background: #0CB4F1;
+  border-radius: 3px;
+  color: #fff;
+}

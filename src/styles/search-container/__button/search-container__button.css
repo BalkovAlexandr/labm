@@ -1,0 +1,16 @@
+.search-container__button {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #4F4F4F;
+  max-width: 116px;
+  background-color: transparent;
+  border: 0;
+  background-image: url('../../../images/clean.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+  text-align: end;
+  cursor: pointer;
+  display: none;
+}

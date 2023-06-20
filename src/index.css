@@ -1,0 +1,36 @@
+@import './styles/normalize.css';
+
+@import './styles/users/users.css';
+@import './styles/users/__title/users__title.css';
+
+@import './styles/search-container/search-container.css';
+@import './styles/search-container/__wrapper/search-container__wrapper.css';
+@import './styles/search-container/__icon/search-container__icon.css';
+@import './styles/search-container/__input/search-container__input.css';
+@import './styles/search-container/__button/search-container__button.css';
+
+@import './styles/filter-buttons/filter-buttons.css';
+@import './styles/filter-buttons/__select/filter-buttons__select.css';
+@import './styles/filter-buttons/__button/filter-buttons__button.css';
+@import './styles/filter-buttons/__button/_active/filter-buttons__button_active.css';
+
+@import './styles/cards/cards.css';
+@import './styles/cards/__element/cards__element.css';
+
+@import './styles/user-card/user-card.css';
+@import './styles/user-card/__wrapper/user-card__wrapper.css';
+@import './styles/user-card/__name/user-card__name.css';
+@import './styles/user-card/__info/user-card__info.css';
+@import './styles/user-card/__delete/user-card__delete.css';
+
+@import './styles/popup/popup.css';
+@import './styles/popup/_active/popup_active.css';
+@import './styles/popup/__container/popup__container.css';
+@import './styles/popup/__text/popup__text.css';
+@import './styles/popup/__wrapper/popup__wrapper.css';
+@import './styles/popup/__btn/popup__btn.css';
+
+@import './styles/pagination/pagination.css';
+@import './styles/pagination/__list/pagination__list.css';
+@import './styles/pagination/__item/pagination__item.css';
+@import './styles/pagination/__item/_active/pagination__item_active.css';

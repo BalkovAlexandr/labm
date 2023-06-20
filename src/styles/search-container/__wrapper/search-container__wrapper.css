@@ -1,0 +1,8 @@
+.search-container__wrapper {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: #ECEFF0;
+  border-radius: 4px;
+}

@@ -1,0 +1,13 @@
+.search-container__input {
+  background: #ECEFF0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 133%;
+  color: #333333;
+  padding: 9px 4px;
+  border: 0;
+  outline: none;
+  width: 100%;
+  height: 34px;
+}

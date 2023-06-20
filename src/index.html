@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Title</title>
+</head>
+<body>
+  <main class="users">
+    <h1 class="users__title">Список пользователей</h1>
+    <div class="search-container">
+      <div class="search-container__wrapper">
+        <div class="search-container__icon"></div>
+        <input class="search-container__input" type="text" id="input" placeholder="Поиск по имени или e-mail" />
+      </div>
+      <button class="search-container__button">Очистить фильтр</button>
+    </div>
+    <div>
+      <div class="filter-buttons">
+        <p class="filter-buttons__select">Сортировка:</p>
+        <button class="filter-buttons__button registration-date">Дата регистрации</button>
+        <button class="filter-buttons__button rating">Рейтинг</button>
+      </div>
+      <div class="cards">
+        <div class="user-card">
+          <div class="user-card__wrapper">
+            <p class="cards__element">Имя пользователя</p>
+            <p class="cards__element">E-mail</p>
+            <p class="cards__element">Дата регистрации</p>
+            <p class="cards__element">Рейтинг</p>
+          </div>
+        </div>
+        <div class="cards-template" id="cards"></div>
+      </div>
+    </div>
+    <div class="pagination"></div>
+  </main>
+
+  <template class="user-template">
+    <div class="user-card">
+      <ul class="user-card__wrapper">
+        <li class="user-card__name"></li>
+        <li class="user-card__email user-card__info"></li>
+        <li class="user-card__registration-date user-card__info"></li>
+        <li class="user-card__rating user-card__info"></li>
+        <button class="user-card__delete"></button>
+      </ul>
+    </div>
+  </template>
+
+  <div class="popup">
+    <div class="popup__container">
+      <p class="popup__text">Вы уверены, что хотите удалить пользователя?</p>
+      <div class="popup__wrapper">
+        <button class="popup__btn popup__btn-delete">Да</button>
+        <button class="popup__btn popup__btn-close">Нет</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
